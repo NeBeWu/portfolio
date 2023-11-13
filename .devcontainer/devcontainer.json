@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java-postgres
+{
+	"name": "Portfolio",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "portfolio",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"Angular.ng-template",
+				"johnpapa.Angular2",
+				"ritwickdey.LiveServer"
+			]
+		}
+	}
+}
